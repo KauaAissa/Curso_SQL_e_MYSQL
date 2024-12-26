@@ -1,0 +1,31 @@
+# 53 - CRUD
+CREATE DATABASE cadastro;
+
+CREATE TABLE pessoas (nome VARCHAR(100),
+rg VARCHAR(7),
+cpf VARCHAR(11),
+limite INT(10));
+
+CREATE
+READ
+UPDATE
+DELETE
+
+WHERE
+
+
+# UPDATE
+
+SET SQL_SAFE_UPDATES = 0;
+
+UPDATE pessoas SET limite = 0;
+
+UPDATE pessoas SET limite = 10000 WHERE nome =
+"Roberta";
+
+UPDATE pessoas SET limite = 1000 WHERE nome = "p
+edro";
+
+DELETE FROM pessoas WHERE nome = "Joaquim";
+
+DELETE FROM pessoas WHERE limite > 1000;
