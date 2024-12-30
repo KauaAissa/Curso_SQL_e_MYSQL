@@ -1,0 +1,38 @@
+# Alterando delimitadores
+
+DELIMITER //
+
+# Criando uma Procedure
+
+DELIMITER //
+CREATE PROCEDURE fullName()
+BEGIN
+	SELECT CONCAT(first_name, " ", last_name);
+END//
+
+CALL fullName()
+
+# Resgatando todas as procedures
+
+SHOW PROCEDURE STATUS;
+
+# Removendo Procedures
+
+DROP PROCEDURE selectAll;
+
+# Extraindo mais detalhes de uma Procedure
+
+SHOW CREATE PROCEDURE fullName()
+
+# Procedure com parâmetros
+
+CREATE PROCEDURE employeesWithHighSalary(
+	IN highSalary INT
+)
+BEGIN
+	SELECET ep.first_name, sa.salary FROM employees AS ep
+	JOIN salaries AS sa ON ep.emp_no = sa.emp_no
+	WHERE sa.salary > highSalary;
+END//
+
+CALL employeesWithHighSalary(80000);
