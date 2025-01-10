@@ -55,7 +55,7 @@ Este repositório contém os exercícios e projetos realizados durante o curso. 
 
 Aqui está o certificado de conclusão do curso:
 
-![Certificado do Curso](../../Certificados/Fotos/curso_sql.jpg)
+![Certificado do Curso](/assets/curso_sql.jpg)
 
 ## Autor
 
