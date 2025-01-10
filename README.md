@@ -51,6 +51,12 @@ Este repositório contém os exercícios e projetos realizados durante o curso. 
 
 [SQL do Básico ao Avançado na Udemy](https://www.udemy.com/course/sql-do-basico-ao-avancado-com-mysql-e-projeto/?kw=mysql&src=sac&couponCode=NEWYEARCAREER)
 
+## Certificado
+
+Aqui está o certificado de conclusão do curso:
+
+![Certificado do Curso](../../Certificados/Fotos/curso_sql.jpg)
+
 ## Autor
 
 Matheus Battisti - Equipe Hora de Codar.
